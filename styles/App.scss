@@ -1,0 +1,74 @@
+@import 'variables';
+
+.theme--dark {
+  .color--primary {
+    color: $primary-color-light;
+    transition: color 500ms ease-in-out;
+  }
+
+  .color--primary-light,
+  .hero__desc,
+  .about__desc,
+  .about__detail-content > p:last-child {
+    color: $light;
+    transition: color 500ms ease-in-out;
+  }
+
+  .navbar,
+  .menu,
+  .hero,
+  .hero__title::before,
+  .about,
+  .skills,
+  .projects {
+    background-color: $theme-dark;
+    transition: background-color 500ms ease-in-out;
+  }
+
+  .hero__title::after {
+    background-color: $light;
+  }
+}
+
+.theme--light {
+  .hero {
+    background-color: white;
+
+    &__title::before {
+      background-color: white;
+      transition: background-color 500ms ease-in-out, color 500ms ease-in-out;
+    }
+
+    transition: background-color 500ms ease-in-out, color 500ms ease-in-out;
+  }
+
+  .navbar,
+  .menu,
+  .hero,
+  .about,
+  .skills,
+  .projects,
+  .color--primary,
+  .color--primary-light,
+  .hero__desc,
+  .about__desc,
+  .about__detail-content > p:last-child,
+  .skills__subtitle,
+  .modal__container {
+    transition: background-color 500ms ease-in-out, color 500ms ease-in-out;
+  }
+}
+
+// exception
+.hero__icon:not(:hover),
+.hero__icon:hover,
+.navbar__link:not(:hover),
+.navbar__link:hover,
+.navbar__link > a:not(:hover),
+.navbar__link > a:hover,
+.navbar__menu:not(:hover),
+.navbar__menu:hover,
+.menu__item.color--primary:not(:hover),
+.menu__item.color--primary:hover {
+  transition: none;
+}

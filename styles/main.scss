@@ -1,0 +1,21 @@
+@import './config';
+@import './global';
+@import './variables';
+
+// components
+@import '../components/Navbar/index.scss';
+@import '../components/Card/index.scss';
+@import '../components/Avatar/index.scss';
+@import '../components/Menu/index.scss';
+@import '../components/Modal/index.scss';
+
+// pages
+@import '../components/Hero/index.scss';
+@import '../components/About/index.scss';
+@import '../components/Experiences/index.scss';
+@import '../components/Projects/index.scss';
+@import '../components/Skills/index.scss';
+@import '../components/Footer/index.scss';
+@import 'App.scss';
+
+@import 'responsive';

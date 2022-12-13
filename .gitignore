@@ -18,6 +18,9 @@
 # misc
 .DS_Store
 *.pem
+/public/files/
+/public/profile-photo.png
+/assets/img/
 
 # debug
 npm-debug.log*

@@ -1,0 +1,110 @@
+.hero {
+  padding: 2rem 1rem 0;
+  min-height: calc(100vh - 91px);
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  gap: 2rem;
+  overflow: hidden;
+
+  &__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    max-width: 700px;
+  }
+
+  &__right {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__pre-title {
+    display: block;
+    font-size: clamp(1.5rem, 3vw + 1rem, 2.5rem);
+  }
+
+  &__title {
+    display: block;
+    position: relative;
+    font-size: clamp(2rem, 5vw + 1rem, 4rem);
+    text-align: center;
+    white-space: nowrap;
+
+    &::before,
+    &::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+    }
+
+    &::before {
+      animation: typewriter $typewriter-speed steps($typewriter-steps) 1s
+        forwards;
+    }
+
+    &::after {
+      width: 0.125em;
+      background: $dark;
+      animation: typewriter $typewriter-speed steps($typewriter-steps) 1s
+          forwards,
+        blink $blink-speed steps(24) infinite;
+    }
+  }
+
+  &__subtitle {
+    display: block;
+    color: $color-orange;
+    font-size: 1.5rem;
+    opacity: 0;
+    transform: translateY(1rem);
+    animation: fadeInUp 2s calc($typewriter-speed + 1500ms) ease forwards;
+  }
+
+  &__desc {
+    text-align: center;
+  }
+
+  &__icon-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  &__icon {
+    cursor: pointer;
+
+    &:hover {
+      color: $color-yellow !important;
+    }
+  }
+
+  & button {
+    padding: 1em 2em;
+    margin: 1.5rem 0;
+  }
+}
+
+@keyframes typewriter {
+  to {
+    left: 100%;
+  }
+}
+
+@keyframes blink {
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

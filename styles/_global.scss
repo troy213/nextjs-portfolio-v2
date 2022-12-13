@@ -1,0 +1,105 @@
+@import 'variables';
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text--bold {
+  font-weight: 700;
+}
+
+.text--light {
+  font-weight: 300;
+}
+
+.text--3 {
+  font-size: 0.75rem;
+}
+
+.text--5 {
+  font-size: 1.25rem;
+}
+
+.text--6 {
+  font-size: 1.5rem;
+}
+
+.text--8 {
+  font-size: 2rem;
+}
+
+.text--mono {
+  font-family: 'Roboto Mono', monospace;
+}
+
+.line-height--6 {
+  line-height: 150%;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  gap: 0.5em;
+  align-items: center;
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.btn-icon {
+  font-size: 1.5em !important;
+}
+
+.btn-yellow {
+  background-color: $color-yellow;
+  color: $primary-color-dark;
+
+  &:hover {
+    @include transition-ease(100ms);
+    background-color: $color-yellow-light;
+  }
+}
+
+.btn-orange {
+  background-color: $color-orange;
+  color: $light;
+
+  &:hover {
+    @include transition-ease(100ms);
+    background-color: $color-orange-light;
+  }
+}
+
+.color--primary {
+  color: $primary-color;
+}
+
+.color--primary-light {
+  color: $primary-color-light;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.p-4 {
+  padding: 1em;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(100%);
+    transition: all 1s ease;
+  }
+
+  .show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+  }
+}

@@ -1,0 +1,45 @@
+header {
+  top: 0;
+  position: sticky;
+  z-index: 1;
+}
+
+.navbar {
+  background-color: $light;
+  padding: 2em 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  gap: 2rem;
+
+  &__logo {
+    cursor: pointer;
+  }
+
+  & ul {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  & li {
+    cursor: pointer;
+
+    &:hover,
+    a:hover {
+      color: $color-yellow;
+      transition: none;
+    }
+  }
+
+  &__link {
+    display: none;
+  }
+
+  &__menu {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+}
