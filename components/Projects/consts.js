@@ -2,6 +2,7 @@ import {
   isometricOutstorePng,
   isometricOngkirPng,
   isometricPortfolioPng,
+  isometricExpenseTrackerPng,
 } from '../../assets/images'
 
 export const PROJECTS = [
@@ -30,6 +31,15 @@ export const PROJECTS = [
     appUrl: 'https://github.com/troy213/portfolio',
     description:
       'My very first portfolio website, I like this web personally because I put all my effort to draw all the assets from scratch using Adobe Illustrator.',
+    tags: ['React', 'NodeJS', 'Express'],
+  },
+  {
+    title: 'Expense Tracker',
+    background: isometricExpenseTrackerPng,
+    githubUrl: 'https://github.com/troy213/expense-tracker',
+    appUrl: 'https://expense-tracker.triteraerlangga.com',
+    description:
+      'A simple expense tracker app that public can use. You can login as a guest or register as a user. Authentication using JWT httpOnly Cookies and the password is hashed using BCrypt.',
     tags: ['React', 'NodeJS', 'Express'],
   },
 ]

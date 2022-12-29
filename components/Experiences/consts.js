@@ -6,7 +6,7 @@ export const EDUCATION_EXPERIENCES = {
       time: '2019 - current',
       major: 'Online Coding Bootcamp',
       description:
-        "The lesson mainly focuses on web programming, even though I already have the basics of web programming on campus, I need to keep learning and practice more, and surely, many things that I didn't learn on campus can be found here like AWS, GCP, Golang, Firebase, and I always believe learning from many sources are the best way to improve your knowledge...",
+        'Although I already have a basic understanding of web programming during my time in college, the course mainly focuses on further developing these skills. I need to continue learning and practicing in order to improve. I believe that learning from a variety of sources is the most effective way to grow intellectually.',
       location: 'Online',
     },
     {
@@ -14,7 +14,7 @@ export const EDUCATION_EXPERIENCES = {
       time: 'Sep 2014 - Mar 2018',
       major: 'Bachelor (S1) - Computer Science',
       description:
-        'My study was mainly focused on Java-based programming, and my first program was a simple encryption desktop application using a Caesar cipher algorithm. Using the same principle, I learned how to implement AES-256 encryption for database security in my thesis.',
+        'My studies were mainly focused on Java-based programming, and my first program was a simple encryption desktop application using a Caesar cipher algorithm. Using the same principles, I learned how to implement AES-256 encryption for database security in my thesis.',
       location: 'South Jakarta',
     },
     {
@@ -22,7 +22,7 @@ export const EDUCATION_EXPERIENCES = {
       time: '2010 - 2013',
       major: 'Science Major',
       description:
-        'I built my first PC and learned how to make a blog using CMS when I was in Junior High School. Since then, I have loved a computer-based lesson.',
+        'I built my first PC and learned how to create a blog using a CMS when I was in junior high school. Since then, I have enjoyed computer-based lessons.',
       location: 'South Tangerang',
     },
   ],
@@ -36,7 +36,7 @@ export const CAREERS_EXPERIENCES = {
       time: 'Mar 2014 - Jan 2022',
       major: 'Office Administrator',
       description:
-        'Working in one of the biggest diecast online auctioneers based on social media in Indonesia. I work as an Office Administrator that responsible for data distribution, store paperwork, documents, computer-based information, and submit monthly final sales reports.',
+        'I work as an office administrator at one of the largest diecast online auctioneers based in Indonesia, which operates through social media. My responsibilities include distributing data, organizing paperwork and documents, managing computer-based information, and submitting monthly final sales reports.',
       location: 'South Tangerang',
     },
     {
@@ -44,7 +44,7 @@ export const CAREERS_EXPERIENCES = {
       time: 'Mar 2022 - Sep 2022',
       major: 'ReactJS Developer',
       description:
-        'Working as a ReactJS Developer, Teravin is an Indonesian Company that focuses on creating new payments for the financial industry. This is my first time to be in Team Dev and learned how to use git properly.',
+        'I work as a ReactJS developer at Teravin, an Indonesian company that focuses on creating new payment solutions for the financial industry. During my employment here, I have had the opportunity to work on the development of an investment app based in Malaysia.',
       location: 'Central Jakarta',
     },
   ],

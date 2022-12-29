@@ -40,12 +40,12 @@ const About = () => {
         </div>
       </div>
       <p className='about__desc text--light line-height--6'>
-        I love traveling, acoustic, drawing, photography and coffee. I graduated
-        with a Computer Science Degree and had an interest in Web Development
-        which offers me the opportunity to develop new skills while
-        strengthening those I already possess. And with more than 7 years of
-        working experience as an Office Administrator had enabled me to develop
-        good organizational skills and able to work under pressure.
+        I love traveling, acoustic, drawing, photography, and coffee. I
+        graduated with a degree in Computer Science and have an interest in web
+        development, which allows me to develop new skills while strengthening
+        those I already have. I have over seven years of professional experience
+        as an office administrator, which has enabled me to develop good
+        organizational skills and the ability to work under pressure.
       </p>
     </section>
   )

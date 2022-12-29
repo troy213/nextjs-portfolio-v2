@@ -28,7 +28,6 @@ const Hero = () => {
 
   const docxDownload = () => {
     fetch('/files/ATS-CV-Tritera-Erlangga.docx').then((response) => {
-      console.log(response)
       response.blob().then((blob) => {
         let url = window.URL.createObjectURL(blob)
         let a = document.createElement('a')
@@ -75,9 +74,9 @@ const Hero = () => {
           I&apos;m a Web Developer
         </span>
         <p className='hero__desc text--light line-height--6'>
-          Just a man who pursuing his dream as a professional programmer.
-          graduated from Budiluhur University with bachelor degree in Computer
-          Science on 2018
+          Just a man pursuing his dream as a professional programmer. I
+          graduated from Budiluhur University with a bachelor's degree in
+          Computer Science in 2018.
         </p>
         <button
           className='btn btn-orange'
