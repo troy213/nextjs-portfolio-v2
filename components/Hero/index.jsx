@@ -75,7 +75,7 @@ const Hero = () => {
         </span>
         <p className='hero__desc text--light line-height--6'>
           Just a man pursuing his dream as a professional programmer. I
-          graduated from Budiluhur University with a bachelor's degree in
+          graduated from Budiluhur University with a bachelor&apos;s degree in
           Computer Science in 2018.
         </p>
         <button

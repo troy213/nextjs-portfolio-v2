@@ -32,20 +32,20 @@ export const CAREERS_EXPERIENCES = {
   title: 'Careers',
   data: [
     {
-      experienceTitle: 'ICT',
-      time: 'Mar 2014 - Jan 2022',
-      major: 'Office Administrator',
-      description:
-        'I work as an office administrator at one of the largest diecast online auctioneers based in Indonesia, which operates through social media. My responsibilities include distributing data, organizing paperwork and documents, managing computer-based information, and submitting monthly final sales reports.',
-      location: 'South Tangerang',
-    },
-    {
       experienceTitle: 'PT. Teravin Technovations',
       time: 'Mar 2022 - Sep 2022',
       major: 'ReactJS Developer',
       description:
         'I work as a ReactJS developer at Teravin, an Indonesian company that focuses on creating new payment solutions for the financial industry. During my employment here, I have had the opportunity to work on the development of an investment app based in Malaysia.',
       location: 'Central Jakarta',
+    },
+    {
+      experienceTitle: 'ICT',
+      time: 'Mar 2014 - Jan 2022',
+      major: 'Office Administrator',
+      description:
+        'I work as an office administrator at one of the largest diecast online auctioneers based in Indonesia, which operates through social media. My responsibilities include distributing data, organizing paperwork and documents, managing computer-based information, and submitting monthly final sales reports.',
+      location: 'South Tangerang',
     },
   ],
 }
