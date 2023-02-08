@@ -3,6 +3,7 @@ import {
   isometricOngkirPng,
   isometricPortfolioPng,
   isometricExpenseTrackerPng,
+  isometricPokedexPng,
 } from '../../assets/images'
 
 export const PROJECTS = [
@@ -41,5 +42,14 @@ export const PROJECTS = [
     description:
       'A simple expense tracker app that public can use. You can login as a guest or register as a user. Authentication using JWT httpOnly Cookies and the password is hashed using BCrypt.',
     tags: ['React', 'NodeJS', 'Express'],
+  },
+  {
+    title: 'Pokedex',
+    background: isometricPokedexPng,
+    githubUrl: 'https://github.com/troy213/pokeapi',
+    appUrl: 'https://troy-pokeapi.netlify.app',
+    description:
+      'I recently took a technical test from an IT company in Indonesia where I was tasked to create a website that consume pokeapi.',
+    tags: ['React'],
   },
 ]

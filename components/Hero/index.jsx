@@ -27,12 +27,12 @@ const Hero = () => {
   }
 
   const docxDownload = () => {
-    fetch('/files/ATS-CV-Tritera-Erlangga.docx').then((response) => {
+    fetch('/files/ATS-CV-Tritera_Erlangga.docx').then((response) => {
       response.blob().then((blob) => {
         let url = window.URL.createObjectURL(blob)
         let a = document.createElement('a')
         a.href = url
-        a.download = 'ATS-CV-Tritera-Erlangga.docx'
+        a.download = 'ATS-CV-Tritera_Erlangga.docx'
         a.click()
       })
     })
@@ -52,7 +52,7 @@ const Hero = () => {
             <span>ATS-Friendly CV</span>
           </button>
           <a
-            href='/files/CV-Tritera-Erlangga.pdf'
+            href='/files/CV-Tritera_Erlangga.pdf'
             download
             target='_blank'
             rel='noreferrer noopener'
